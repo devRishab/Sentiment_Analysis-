@@ -3,12 +3,12 @@ import json
 import urllib.parse
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import yfinance as yf
 from transformers import pipeline
 import warnings
 import streamlit as st
 import feedparser
+import matplotlib.pyplot as plt
+import yfinance as yf
 
 
 warnings.filterwarnings('ignore')

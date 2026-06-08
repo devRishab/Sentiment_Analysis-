@@ -1,6 +1,5 @@
 import os
 import json
-import feedparser
 import urllib.parse
 import pandas as pd
 import numpy as np
@@ -9,6 +8,8 @@ import yfinance as yf
 from transformers import pipeline
 import warnings
 import streamlit as st
+import feedparser
+
 
 warnings.filterwarnings('ignore')
 
